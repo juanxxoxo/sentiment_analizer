@@ -14,6 +14,7 @@ def get_sentiment(text):
         return 'neutral'
 
 
-text = "Charles enjoys playing football but Marie does not"
+
+text = input("Enter some text: ")
 sentiment = get_sentiment(text)
 print("Sentiment:", sentiment)
